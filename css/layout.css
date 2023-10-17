@@ -1,0 +1,10 @@
+@media screen  and (max-width:576px){
+    p{
+        font-size:10px;
+    }
+}
+@include media-breakpoint-down(md) {
+    p{
+        font-size:10px;
+    }
+}
