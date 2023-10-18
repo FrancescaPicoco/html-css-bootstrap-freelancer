@@ -2,12 +2,16 @@
     p{
         font-size:10px;
     }
-    .icn{
-        display: block;
+    
+}
+@media screen  and (min-width: 576px) {
+    .fs_7{
+        font-size: 0.5em;
     }
-    .txt_nav{
-        display: none;
-        padding: 0;
+}
+@media  screen and (max-width: 1200px) and (max-width: 768px) {
+    .fs_7{
+        font-size: 0.7em;
     }
 }
 @include media-breakpoint-down(md) {
