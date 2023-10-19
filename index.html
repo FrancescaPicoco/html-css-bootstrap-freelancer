@@ -38,7 +38,7 @@
                 </div>
             </div>
         </nav>     -->
-        <nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark dark-blue">
             <div class="container d-flex">
                 <div id="brand">
                     <a href="#" class="navbar-brand text-white">START BOOTSTRAP</a>
@@ -67,8 +67,8 @@
     <main>
 <!--START JUMBOTRON SECTION-->
         <div class="jumbotron">
-            <div class="container-sm green py-2">
-                <div class="row justify-content-center">
+            <div class="container-sm green">
+                <div class="row justify-content-center pt-5">
                     <div class="col-12 d-flex justify-content-center">
                         <img src="img/avatar.svg" class="w-20">
                     </div>
@@ -79,15 +79,21 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-6 row">
-                        <div class="col-5"><hr class="wht-hr"></div>
-                        <div class="col-2 text-center"><i class="fa-solid fa-star w_icn"></i></div>
-                        <div class="col-5"><hr class="wht-hr"></div>
+                    <div class="col-8 row">
+                        <div class="col-5 d-flex justify-content-end">
+                            <hr class="wht-hr">
+                        </div>
+                        <div class="col-2 text-center">
+                            <i class="fa-solid fa-star text-white"></i>
+                        </div>
+                        <div class="col-5">
+                            <hr class="wht-hr">
+                        </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center pb-5">
                     <div class="col-12 d-flex justify-content-center">
-                        <p>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</p>
+                        <p class="text-white">GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATOR</p>
                     </div>
                 </div>
             </div>
@@ -95,20 +101,20 @@
 <!--END JUMBOTRON SECTION--> 
 <!--START PORTFOLIO SECTION-->       
         <div class="portfolio">
-            <div class="container-sm py-2">
-                <div class="row justify-content-center">
+            <div class="container-sm">
+                <div class="row justify-content-center pt-5">
                     <div class="col-12 d-flex justify-content-center">
                         <h5 class="wei-bold">PORTFOLIO</h5>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-6 row">
-                        <div class="col-5"><hr class="blk-hr"></div>
+                <div class="row justify-content-center pb-5">
+                    <div class="col-8 row">
+                        <div class="col-5 d-flex justify-content-end"><hr class="blk-hr"></div>
                         <div class="col-2 text-center"><i class="fa-solid fa-star"></i></div>
                         <div class="col-5"><hr class="blk-hr"></div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row pb-5">
                     <div class="col-lg-4 col-md-6 col-sm-12 text-center py-1">
                         <img src="img/cabin.png" class="w-40">
                     </div>
@@ -133,15 +139,15 @@
 <!--END PORTFOLIO SECTION-->
 <!--START ABOUT SECTION-->       
         <div class="about green">
-            <div class="container-sm py-2">
-                <div class="row justify-content-center">
+            <div class="container-sm">
+                <div class="row justify-content-center pt-5">
                     <div class="col-12 d-flex justify-content-center">
                         <h5 class="wei-bold text-white">ABOUT</h5>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-8 row">
-                        <div class="col-5"><hr class="wht-hr"></div>
+                        <div class="col-5 d-flex justify-content-end"><hr class="wht-hr"></div>
                         <div class="col-2 text-center"><i class="fa-solid fa-star text-white"></i></div>
                         <div class="col-5"><hr class="wht-hr"></div>
                     </div>
@@ -150,9 +156,9 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-12 text-white fs-7">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customizatio.</div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-12 text-white fs-7">Whether you're a student looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center pb-5">
                     <div class="col-2 d-flex justify-content-center">
-                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i>Download</button>
+                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download mr-1 "></i>Download</button>
                     </div>
                 </div>
             </div>
@@ -160,45 +166,37 @@
 <!--END ABOUT SECTION-->       
 <!--START CONTACT SECTION-->       
         <div class="contact">
-            <div class="container-sm py-2">
-                <div class="row justify-content-center">
+            <div class="container-sm">
+                <div class="row justify-content-center pt-5">
                     <div class="col-12 d-flex justify-content-center">
                         <h5 class="wei-bold">CONTACT ME</h5>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-8 row">
-                        <div class="col-5"><hr></div>
+                        <div class="col-5 d-flex justify-content-end"><hr class="blk-hr"></div>
                         <div class="col-2 text-center"><i class="fa-solid fa-star"></i></div>
-                        <div class="col-5"><hr></div>
+                        <div class="col-5"><hr class="blk-hr"></div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <p>Name</p>
-                </div>
                 <div class="col-12">
-                    <hr>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Name" required minlength="4" maxlength="8" size="30"></input>
                 </div>
-                <div class="col-2">
-                    <p>Email Addres</p>
-                </div>
+    
                 <div class="col-12">
-                    <hr>
+                    <input type="email" id="mail" name="email" class="form-control" placeholder="Email Address" required minlength="6" maxlength="30" required="@" size="30"></input>
                 </div>
-                <div class="col-2">
-                    <p>Phone Number</p>
-                </div>
+                
                 <div class="col-12">
-                    <hr>
+                    <input type="text" id="numb" name="number" class="form-control" placeholder="Number" required minlength="10" maxlength="3" size=""></input>
                 </div>
-                <div class="col-2 h-2">
-                    <p>Message</p>
+                
+                <div class="col-12 mb-3">
+                    <textarea class="form-control mess" id="exampleFormControlTextarea1" placeholder="Message Area" rows="5"></textarea>
                 </div>
-                <div class="col-12">
-                    <hr>
-                </div>
+                
                 <div class="col-2">
-                    <button type="button" class="btn btn-info">SEND</button>
+                    <button type="button" class="btn btn-info text-white fs_7 my-2">SEND</button>
                 </div>
             </div>
         </div>
@@ -207,24 +205,30 @@
 <!--END MAIN-->
 <!--START FOOTER-->
     <footer>
-        <div class="footer-top">
-            <div class="container-sm py-2">
-                <div class="row">
+        <div class="footer-top blue text-white">
+            <div class="container-sm">
+                <div class="row pt-2">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                         <div class="row justify-content-center">
-                            <div class="col-12 text-center"><p>LOCATION</p></div>                            
+                            <div class="col-12 text-center">
+                                <span class="fs_7">LOCATION</span>
+                            </div>                            
                         </div>
                         <div class="row">
-                            <div class="col-12 text-center"><p>John Daniel Drive Clark, MO</p></div>    
+                            <div class="col-12 text-center">
+                                <span class="fs_7">John Daniel Drive Clark, MO</span>
+                            </div>    
                         </div>
                         <div class="row justify-content-center text-center">
-                            <div class="col-12 text-center"><p>54243</p></div>  
+                            <div class="col-12 text-center">
+                                <span class="fs_7">54243</span>
+                            </div>  
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                         <div class="row">
                             <div class="col-12 text-center">
-                                <p>AROUND THE WEB</p>
+                                <span class="fs_7">AROUND THE WEB</span>
                             </div>
                         </div>
                         <div class="row justify-content-center">
@@ -252,20 +256,24 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                         <div class="row justify-content-center">
-                            <div class="col-12 text-center"><p>ABOUT FREELANCER</p></div>                            
+                            <div class="col-12 text-center">
+                                <span class="fs_7">ABOUT FREELANCER</span>
+                            </div>                            
                         </div>
                         <div class="row">
-                            <div class="col-12 text-center"><p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p></div>    
+                            <div class="col-12 text-center">
+                                <span class="fs_7">Freelance is a free to use, open source Bootstrap theme created by <a href="#" id="start">Start Bootstrap</a>.</span>
+                            </div>    
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom dark-blue text-white">
             <div class="container-sm py-2">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <span>Copyright <i class="fa-regular fa-copyright"></i>Your Website 2019</span>
+                        <span class="fs_7">Copyright <i class="fa-regular fa-copyright"></i>Your Website 2019</span>
                     </div>
                 </div>
             </div>
