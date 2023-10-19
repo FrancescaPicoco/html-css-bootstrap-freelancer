@@ -87,7 +87,7 @@ img{
     z-index: 999;
 }
 
-.image:hover .plus{
+.plus:hover{
     display: block;
 }
 .image:hover{

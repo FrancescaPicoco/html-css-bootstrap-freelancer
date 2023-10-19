@@ -14,8 +14,3 @@
         font-size: 0.7em;
     }
 }
-@include media-breakpoint-down(md) {
-    p{
-        font-size:10px;
-    }
-}
